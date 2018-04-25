@@ -74,7 +74,7 @@ export default class Messenger extends Component {
     this.setState({ current_length: 0 });
     this.setState({ fadeBuffer: false });
     this.setState({ mainMessage: "" });
-    setTimeout(this.animateIn, 200);
+    setTimeout(this.animateIn, 300);
   }
   render() {
     return (
