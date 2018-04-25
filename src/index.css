@@ -12,6 +12,10 @@ p {
   color:#bbb;
 }
 
-img{
+.self-photo{
   border-radius: 50%;
+}
+
+.skillset{
+  margin-top: 100px;
 }
