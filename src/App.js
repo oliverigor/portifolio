@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Messenger from './messenger.js'
 
@@ -8,8 +7,8 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <div className="messenger">Welcome to React</div>
+
+          <h1 className="App-title">Igor Martins</h1>
         </header>
         <p className="App-intro">
         <Messenger news={['Olá', 'Me chamo igor', 'Era engenheiro automotivo', 'Porém agora sou aspirante a desenvolvedor Full-stack']}/>
