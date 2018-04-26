@@ -16,8 +16,14 @@ p {
   border-radius: 50%;
 }
 
-.skillset{
+.skill_set{
   margin-top: 100px;
   width: 50%;
   margin: auto;
+}
+
+.skill_box{
+  display:flex;
+  justify-content:center;
+  margin-top:200px;
 }

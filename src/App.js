@@ -29,22 +29,22 @@ class App extends Component {
         </div>
 
 
-        <div className="skillset">
+        <div className="skill_set">
 
-          <div>
+          <div className="skill_box">
             <img src={Skills} width={100} />
           </div>
-          <div>
+          <div className="skill_box">
             <img src={Computer} width={100} />
           </div>
-          <div>
+          <div className="skill_box">
             <img src={Job} width={100} />
           </div>
-          <div>
+          <div className="skill_box">
             <img src={Like} width={100} />
           </div>
-          <div style={{display: 'flex', justifyContent:'center'}}>
-            <div style={{marginRight:'20px'}}>
+          <div className="skill_box">
+            <div>
             <img src={Letter} width={100} />
             </div>
             <div>
