@@ -11,7 +11,7 @@ export default class Messenger extends Component {
     messages: []
   }
   componentDidMount() {
-    setTimeout(this.animateIn, 100)
+    setTimeout(this.animateIn, 2500)
   }
   generateRandomString = length => {
     let random_text = ""
