@@ -44,15 +44,18 @@ p {
         margin-right: 0px !important
     }
     .title{
-      padding-top: 150px !important;
+      padding-top: 200px !important;
       margin-top: 0px !important;
+    }
+    .skill_box{
+      margin-top: 50px !important;
     }
     .skill_box:first-child{
       margin-top: -50px !important;
     }
 
     img{
-      width: 60px;
+      width: 80px !important;
     }
 }
 
