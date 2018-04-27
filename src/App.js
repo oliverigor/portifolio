@@ -35,64 +35,61 @@ class App extends Component {
           <div className="skill_box">
             <img src={Computer} width={100} />
             <div>
-              <h2 className="title">PROJETOS</h2>
-              <h3 className="text_box">lorem ipsum eh meu bigulao eh nois porra ehuashauehasu, valeu sociedade capitalista, odeio capital inicial e é nois</h3>
+              <h1 className="title">PROJETOS</h1>
+              <h2 className="text_box">lorem ipsum eh meu bigulao eh nois porra ehuashauehasu, valeu sociedade capitalista, odeio capital inicial e é nois</h2>
             </div>
           </div>
           <div className="skill_box">
             <img src={Skills} width={100} />
               <div>
-                <h2 className="title">HABILIDADES</h2>
-                <h3 className="text_box">lorem ipsum eh meu bigulao eh nois porra ehuashauehasu, valeu sociedade capitalista, odeio capital inicial e é nois</h3>
+                <h1 className="title">HABILIDADES</h1>
+                <h2 className="text_box">lorem ipsum eh meu bigulao eh nois porra ehuashauehasu, valeu sociedade capitalista, odeio capital inicial e é nois</h2>
               </div>
           </div>
           <div className="skill_box">
             <img src={Current} width={100} />
               <div>
-                <h2 className="title">TRABALHO ATUAL</h2>
-                <h3 className="text_box">lorem ipsum eh meu bigulao eh nois porra ehuashauehasu, valeu sociedade capitalista, odeio capital inicial e é nois</h3>
+                <h1 className="title">TRABALHO ATUAL</h1>
+                <h2 className="text_box">lorem ipsum eh meu bigulao eh nois porra ehuashauehasu, valeu sociedade capitalista, odeio capital inicial e é nois</h2>
               </div>
           </div>
           <div className="skill_box">
             <img src={Like} width={100} />
               <div>
-                <h2 className="title">O QUE EU CURTO</h2>
-                <h3 className="text_box">lorem ipsum eh meu bigulao eh nois porra ehuashauehasu, valeu sociedade capitalista, odeio capital inicial e é nois</h3>
+                <h1 className="title">O QUE EU CURTO</h1>
+                <h2 className="text_box">lorem ipsum eh meu bigulao eh nois porra ehuashauehasu, valeu sociedade capitalista, odeio capital inicial e é nois</h2>
               </div>
           </div>
           <div className="skill_box">
             <img src={Job} width={100} />
               <div>
-                <h2 className="title">ME CONTRATE</h2>
-                <h3 className="text_box">lorem ipsum eh meu bigulao eh nois porra ehuashauehasu, valeu sociedade capitalista, odeio capital inicial e é nois</h3>
+                <h1 className="title">QUER FAZER UMA PROPOSTA?</h1>
+                <h2 className="text_box">lorem ipsum eh meu bigulao eh nois porra ehuashauehasu, valeu sociedade capitalista, odeio capital inicial e é nois</h2>
               </div>
           </div>
           <div className="skill_box">
-            <div>
             <img src={Letter} width={100} />
-            <div>
-              <h2 className="title">DEIXE SUA MENSAGEM</h2>
-              <h3 className="text_box">lorem ipsum eh meu bigulao eh nois porra ehuashauehasu, valeu sociedade capitalista, odeio capital inicial e é nois</h3>
-            </div>
-            </div>
+              <div>
+                <h1 className="title">DEIXE SUA MENSAGEM</h1>
+                <h2 className="text_box">lorem ipsum eh meu bigulao eh nois porra ehuashauehasu, valeu sociedade capitalista, odeio capital inicial e é nois</h2>
+                  {/* <div >
+                    <form action="https://formspree.io/m.oliverunb@gmail.com" method="POST">
 
-            <div style={{marginTop:'50px'}}>
-            <form action="https://formspree.io/m.oliverunb@gmail.com" method="POST">
-
-              <div>
-                <input type="text" name="name" placeholder="Nome"/>
+                      <div>
+                        <input type="text" name="name" placeholder="Nome"/>
+                      </div>
+                      <div>
+                        <input type="email" name="_replyto" placeholder="Email"/>
+                      </div>
+                      <div>
+                        <input type="text" name="message" placeholder="Mensagem"/>
+                      </div>
+                      <div>
+                        <input type="submit" value="Send"/>
+                      </div>
+                    </form>
+                  </div> */}
               </div>
-              <div>
-                <input type="email" name="_replyto" placeholder="Email"/>
-              </div>
-              <div>
-                <input type="text" name="message" placeholder="Mensagem"/>
-              </div>
-              <div>
-                <input type="submit" value="Send"/>
-              </div>
-            </form>
-            </div>
           </div>
 
         </div>
