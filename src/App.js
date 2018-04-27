@@ -33,21 +33,22 @@ class App extends Component {
 
           <div className="skill_box">
             <img src={Skills} width={100} />
+            <h3 className="text_box">lorem ipsum eh meu bigulao eh nois porra ehuashauehasu, valeu sociedade capitalista, odeio capital inicial e é nois</h3>
           </div>
           <div className="skill_box">
             <img src={Computer} width={100} />
           </div>
           <div className="skill_box">
-            <img src={Job} width={100} />
+            <img src={Like} width={100} />
           </div>
           <div className="skill_box">
-            <img src={Like} width={100} />
+            <img src={Job} width={100} />
           </div>
           <div className="skill_box">
             <div>
             <img src={Letter} width={100} />
             </div>
-            <div>
+            <div style={{marginTop:'50px'}}>
             <form action="https://formspree.io/m.oliverunb@gmail.com" method="POST">
 
               <div>
@@ -65,6 +66,14 @@ class App extends Component {
             </form>
             </div>
           </div>
+
+        </div>
+
+        <div className="footer">
+
+          <small>
+            <h4>MADE BY ME...YES...IGOR</h4>
+          </small>
 
         </div>
       </div>

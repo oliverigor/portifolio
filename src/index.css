@@ -5,9 +5,11 @@ body {
   background-color: #fefefe;
 }
 
-h1 {
+h1,h2,h3,h4 {
   font-family: 'Rubik', sans-serif;
+  color:#1d1d1d;
 }
+
 p {
   color:#bbb;
 }
@@ -18,12 +20,29 @@ p {
 
 .skill_set{
   margin-top: 100px;
-  width: 50%;
+  width: 40%;
   margin: auto;
 }
 
 .skill_box{
   display:flex;
-  justify-content:center;
+  justify-content:space-between;
   margin-top:200px;
+}
+
+.skill_box:first-child{
+  margin-top:100px;
+}
+
+.footer{
+  margin-top: 200px;
+  text-align: left;
+  margin-left: 200px;
+}
+
+.text_box{
+  margin-left: 60px;
+  margin-top: 36px;
+  font-size: 16px;
+  width:300px;
 }
