@@ -3,8 +3,6 @@ body {
   padding: 0;
   font-family: 'Gugi', cursive;
   background-color: #fefefe;
-  width: 100%;
-  display: block;
 }
 
 h1,h2,h3,h4 {
@@ -40,10 +38,10 @@ p {
 
 @media only screen and (max-width: 500px) {
     .skill_set {
-        width: 100%;
-        margin: 0px !important;
-        margin-left: 2px !important;
-        max-width: 400px !important;
+        width: 100% !important;
+        margin-left: 10px !important;
+        max-width: 300px !important;
+        margin-right: 0px !important
     }
     .title{
       padding-top: 150px !important;
@@ -53,6 +51,9 @@ p {
       margin-top: -50px !important;
     }
 
+    img{
+      width: 60px;
+    }
 }
 
 .skill_box{
@@ -62,13 +63,14 @@ p {
 }
 
 .skill_box:first-child{
-  margin-top:100px;
+  margin-top:30px;
 }
 
 .footer{
   margin-top: 100px;
-  text-align: left;
-  margin-left: 200px;
+  text-align: center;
+  width: 100%;
+
 }
 
 .text_box{
@@ -89,6 +91,6 @@ p {
 
 }
 
-form{
-  width:500px;
+input{
+  width: 200px;
 }

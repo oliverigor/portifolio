@@ -10,7 +10,6 @@ import Like from './like.svg'
 import Current from './curriculum.svg'
 
 
-
 class App extends Component {
   render() {
     return (
@@ -25,7 +24,7 @@ class App extends Component {
 
         <div style={{height:'80px'}}>
           <p className="App-intro">
-          <Messenger news={['Olá', 'me chamo igor', 'sou engenheiro automotivo ', 'mas agora', 'sou aspirante a desenvolvedor full-stack!!']}/>
+          <Messenger news={['Fala veei', 'me chamo igor', 'sou engenheiro automotivo ', 'mas agora', 'sou aspirante a desenvolvedor full-stack!!']}/>
           </p>
         </div>
 
@@ -72,24 +71,28 @@ class App extends Component {
               <div>
                 <h1 className="title">DEIXE SUA MENSAGEM</h1>
                 <h2 className="text_box">lorem ipsum eh meu bigulao eh nois porra ehuashauehasu, valeu sociedade capitalista, odeio capital inicial e é nois</h2>
-                  {/* <div >
-                    <form action="https://formspree.io/m.oliverunb@gmail.com" method="POST">
+                <div className="form_louco">
+                  <form action="https://formspree.io/m.oliverunb@gmail.com" method="POST">
 
-                      <div>
-                        <input type="text" name="name" placeholder="Nome"/>
-                      </div>
-                      <div>
-                        <input type="email" name="_replyto" placeholder="Email"/>
-                      </div>
-                      <div>
-                        <input type="text" name="message" placeholder="Mensagem"/>
-                      </div>
-                      <div>
-                        <input type="submit" value="Send"/>
-                      </div>
-                    </form>
-                  </div> */}
+                    <div>
+                      <input type="text" name="name" placeholder="Nome"/>
+                    </div>
+                    <div>
+                      <input type="email" name="_replyto" placeholder="Email"/>
+                    </div>
+                    <div>
+                      <input type="text" name="message" placeholder="Mensagem"/>
+                    </div>
+                    <div>
+                      <button className="btn-submit" type="submit" value="Send">
+
+                      </button>
+                    </div>
+                  </form>
+                </div>
+
               </div>
+
           </div>
 
         </div>
@@ -97,7 +100,7 @@ class App extends Component {
         <div className="footer">
 
           <small>
-            <h4>MADE BY ME...YES...IGOR</h4>
+            <p>MADE BY ME...YES...<a href="https://github.com/oliverigor">IGOR</a></p>
           </small>
 
         </div>

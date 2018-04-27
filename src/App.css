@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  width: 100%;
 }
 .App-header {
   height: 150px;
@@ -17,5 +18,5 @@
 }
 
 .App-Louco{
-  margin-top: 100px;
+  margin-top: 150px;
 }
