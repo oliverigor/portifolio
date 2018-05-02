@@ -42,14 +42,14 @@ class App extends Component {
             <img src={Skills} width={100} />
               <div>
                 <h1 className="title">HABILIDADES</h1>
-                <h2 className="text_box">lorem ipsum eh meu bigulao eh nois porra ehuashauehasu, valeu sociedade capitalista, odeio capital inicial e é nois</h2>
+                <h2 className="text_box">C, C++, Lua, NCL, Java, ActionScript 3.0, Python, HTML, CSS, Jade, Sass, JavaScript, JQuery, ReactJS, React Router, React Native, Redux, D3.js, Node.js, Angular, Express, MongoDB, Git</h2>
               </div>
           </div>
           <div className="skill_box">
             <img src={Current} width={100} />
               <div>
                 <h1 className="title">TRABALHO ATUAL</h1>
-                <h2 className="text_box">lorem ipsum eh meu bigulao eh nois porra ehuashauehasu, valeu sociedade capitalista, odeio capital inicial e é nois</h2>
+                <h2 className="text_box">Atualmente estou trabalhando na Secretaria de Educação de Brasília como Web designer e desenvolvedor Front-end e também sou desenvolvedor na <a href="https://mouselabs.com.br/">MouseLabs.</a></h2>
               </div>
           </div>
           <div className="skill_box">
@@ -63,7 +63,9 @@ class App extends Component {
             <img src={Job} width={100} />
               <div>
                 <h1 className="title">QUER FAZER UMA PROPOSTA?</h1>
-                <h2 className="text_box">lorem ipsum eh meu bigulao eh nois porra ehuashauehasu, valeu sociedade capitalista, odeio capital inicial e é nois</h2>
+                <h2 className="text_box">
+                  Eu adoraria trabalhar com vocês em projetos UI/UX para Web ou Mobile. <br/>
+                  <a href="https://docs.google.com/document/d/1CpUH9MoX992QVNsFsSqxNhiw7VePwlzrjpe4lwsX7A4/edit?usp=sharing">Currículo</a></h2>
               </div>
           </div>
           <div className="skill_box">
@@ -71,29 +73,32 @@ class App extends Component {
               <div>
                 <h1 className="title">DEIXE SUA MENSAGEM</h1>
                 <h2 className="text_box">lorem ipsum eh meu bigulao eh nois porra ehuashauehasu, valeu sociedade capitalista, odeio capital inicial e é nois</h2>
-                <div className="form_louco">
-                  <form action="https://formspree.io/m.oliverunb@gmail.com" method="POST">
-
-                    <div>
-                      <input type="text" name="name" placeholder="Nome"/>
-                    </div>
-                    <div>
-                      <input type="email" name="_replyto" placeholder="Email"/>
-                    </div>
-                    <div>
-                      <input type="text" name="message" placeholder="Mensagem"/>
-                    </div>
-                    <div>
-                      <button className="btn-submit" type="submit" value="Send">
-
-                      </button>
-                    </div>
-                  </form>
-                </div>
-
               </div>
 
           </div>
+
+
+            <div className="form_louco">
+              <form action="https://formspree.io/m.oliverunb@gmail.com" method="POST">
+
+                <div className="form_class">
+                  <input type="text" name="name" placeholder="Nome"/>
+                </div>
+                <div className="form_class">
+                  <input type="email" name="_replyto" placeholder="Email"/>
+                </div>
+                <div className="form_class">
+                  <input type="text" name="message" placeholder="Mensagem"/>
+                </div>
+                <div className="form_class">
+                  <button className="btn-submit" type="submit" value="Send">
+                    <h5 style={{verticalAlign:'middle',margin:'0px'}}>Enviar</h5>
+                  </button>
+                </div>
+              </form>
+          </div>
+
+
 
         </div>
 

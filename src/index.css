@@ -5,7 +5,7 @@ body {
   background-color: #fefefe;
 }
 
-h1,h2,h3,h4 {
+h1,h2,h3,h4,input {
   font-family: 'Rubik', sans-serif;
   color:#1d1d1d;
 }
@@ -26,6 +26,12 @@ p {
   color:#bbb;
 }
 
+a{
+  text-decoration: none;
+  color:#5694f1;
+  font-weight: 500;
+}
+
 .self-photo{
   border-radius: 50%;
 }
@@ -38,24 +44,37 @@ p {
 
 @media only screen and (max-width: 500px) {
     .skill_set {
-        width: 100% !important;
+        width: 97% !important;
         margin-left: 10px !important;
-        max-width: 300px !important;
+        max-width: 97% !important;
         margin-right: 0px !important
     }
+    .text_box{
+      padding-left: 0px !important;
+      text-align: center !important;
+
+    }
     .title{
-      padding-top: 200px !important;
+      padding-top: 20px !important;
       margin-top: 0px !important;
+      text-align: center !important;
+      padding-left: 0px !important;
     }
     .skill_box{
-      margin-top: 50px !important;
+      margin-top: 80px !important;
+      display:block !important;
     }
     .skill_box:first-child{
-      margin-top: -50px !important;
+      margin-top: 60px !important;
     }
 
     img{
       width: 80px !important;
+      height: 75px !important;
+    }
+
+    input{
+      width: 30px;
     }
 }
 
@@ -94,6 +113,29 @@ p {
 
 }
 
+.form_louco{
+    display: flex;
+    justify-content: center !important;
+    padding-top: 40px;
+}
+
+.form_class{
+    padding-top: 10px;
+}
+
 input{
-  width: 200px;
+  width: 300px;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+.btn-submit{
+  color: #1d1d1d;
+  background-color: #bbb;
+  border-radius:12px;
+  border: none;
+  width: 100px;
+  margin-top: 20px;
+  height: 40px;
+
 }
