@@ -8,6 +8,7 @@ import Job from './job.svg'
 import Letter from './letter.svg'
 import Like from './like.svg'
 import Current from './curriculum.svg'
+import Myself from './igorphoto.png'
 
 
 class App extends Component {
@@ -18,7 +19,7 @@ class App extends Component {
 
 
         <div className="App-Louco">
-          <img className="self-photo" src={Photo} width={150}/>
+          <img className="self-photo" src={Myself} width={200}/>
           <h1 className="App-title">Igor Martins</h1>
         </div>
 
@@ -35,21 +36,21 @@ class App extends Component {
             <img src={Computer} width={100} />
             <div>
               <h1 className="title">PROJETOS</h1>
-              <h2 className="text_box"><a href="https://www.paguecripto.com/">PagueCripto</a>, <a href="http://www.sage.se.df.gov.br/autenticacao/usuarios/sign_in">SAGE</a> São alguns de meus trabalhos mais recentes</h2>
+              <h2 className="text_box"><a href="https://www.paguecripto.com/">PagueCripto</a>, <a href="http://www.sage.se.df.gov.br/autenticacao/usuarios/sign_in">SAGE</a> são alguns de meus trabalhos mais recentes. Conto também com alguns projetos da plataforma <a href="https://www.freecodecamp.org">FreeCodeCamp</a> para obter os certificados, porém estão <b>em progresso...</b></h2>
             </div>
           </div>
           <div className="skill_box">
             <img src={Skills} width={100} />
               <div>
                 <h1 className="title">HABILIDADES</h1>
-                <h2 className="text_box">C, C++, Lua, NCL, Java, ActionScript 3.0, Python, HTML, CSS, Jade, Sass, JavaScript, JQuery, ReactJS, React Router, React Native, Redux, D3.js, Node.js, Angular, Express, MongoDB, Git</h2>
+                <h2 className="text_box">C, C++, Lua, NCL, Java, ActionScript 3.0, Python, HTML, CSS, Jade, Sass, JavaScript, JQuery, ReactJS, React Router, React Native, Redux, D3.js, Node.js, Angular, Express, MongoDB, Git.</h2>
               </div>
           </div>
           <div className="skill_box">
             <img src={Current} width={100} />
               <div>
                 <h1 className="title">TRABALHO ATUAL</h1>
-                <h2 className="text_box">Atualmente estou trabalhando na Secretaria de Educação de Brasília como Web designer e desenvolvedor Front-end e também sou desenvolvedor na <a href="https://mouselabs.com.br/">MouseLabs.</a></h2>
+                <h2 className="text_box">Atualmente estou trabalhando na Secretaria de Educação de Brasília como Web designer e desenvolvedor Front-end e também sou desenvolvedor na <a href="https://mouselabs.com.br/"> MouseLabs.</a></h2>
               </div>
           </div>
           <div className="skill_box">
@@ -72,7 +73,7 @@ class App extends Component {
             <img src={Letter} width={100} />
               <div>
                 <h1 className="title">DEIXE SUA MENSAGEM</h1>
-                <h2 className="text_box">Sinta-se livre para me deixar algumas palavras, posso te retornar assim que possível. <br/> Beijos e é nois</h2>
+                <h2 className="text_box">Sinta-se livre para me deixar algumas palavras, posso te retornar assim que possível. <br/> Beijos e é nois.</h2>
               </div>
 
           </div>
