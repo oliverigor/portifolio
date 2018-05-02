@@ -35,7 +35,7 @@ class App extends Component {
             <img src={Computer} width={100} />
             <div>
               <h1 className="title">PROJETOS</h1>
-              <h2 className="text_box">lorem ipsum eh meu bigulao eh nois porra ehuashauehasu, valeu sociedade capitalista, odeio capital inicial e é nois</h2>
+              <h2 className="text_box"><a href="https://www.paguecripto.com/">PagueCripto</a>, <a href="http://www.sage.se.df.gov.br/autenticacao/usuarios/sign_in">SAGE</a> São alguns de meus trabalhos mais recentes</h2>
             </div>
           </div>
           <div className="skill_box">
@@ -56,7 +56,7 @@ class App extends Component {
             <img src={Like} width={100} />
               <div>
                 <h1 className="title">O QUE EU CURTO</h1>
-                <h2 className="text_box">lorem ipsum eh meu bigulao eh nois porra ehuashauehasu, valeu sociedade capitalista, odeio capital inicial e é nois</h2>
+                <h2 className="text_box">Além de programação front-end, meus interesses atuais são inteligência artificial e <i>machine learning</i>. Colocando a tecnologia de lado eu amo música, tudo que envolve produção musical, video games e cinema, basicamente eu vivo e consumo essas coisas.</h2>
               </div>
           </div>
           <div className="skill_box">
@@ -72,7 +72,7 @@ class App extends Component {
             <img src={Letter} width={100} />
               <div>
                 <h1 className="title">DEIXE SUA MENSAGEM</h1>
-                <h2 className="text_box">lorem ipsum eh meu bigulao eh nois porra ehuashauehasu, valeu sociedade capitalista, odeio capital inicial e é nois</h2>
+                <h2 className="text_box">Sinta-se livre para me deixar algumas palavras, posso te retornar assim que possível. <br/> Beijos e é nois</h2>
               </div>
 
           </div>
