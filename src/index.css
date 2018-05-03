@@ -5,7 +5,7 @@ body {
   background-color: #fefefe;
 }
 
-h1,h2,h3,h4,input {
+h1,h2,h3,h4,input, textarea {
   font-family: 'Rubik', sans-serif;
   color:#1d1d1d;
 }
