@@ -88,8 +88,8 @@ class App extends Component {
                 <div className="form_class">
                   <input type="email" name="_replyto" placeholder="Email"/>
                 </div>
-                <div className="form_class">
-                  <input type="text" name="message" placeholder="Mensagem"/>
+                <div className="form_class_message">
+                  <textarea type="text" name="message" placeholder="Mensagem"/>
                 </div>
                 <div className="form_class">
                   <button className="btn-submit" type="submit" value="Send">

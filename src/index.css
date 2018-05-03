@@ -131,6 +131,19 @@ input{
   width: 300px;
   border: none;
   border-bottom: 1px solid;
+  word-wrap: break-word !important;
+  vertical-align: top;
+}
+
+textarea{
+    padding-top: 10px;
+    height: 80px;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid;
+    word-wrap: break-word !important;
+    vertical-align: top;
+
 }
 
 .btn-submit{
