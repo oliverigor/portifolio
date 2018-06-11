@@ -9,7 +9,7 @@ import Letter from './letter.svg'
 import Like from './like.svg'
 import Current from './curriculum.svg'
 import Myself from './igorphoto.png'
-
+import 'font-awesome/css/font-awesome.min.css'
 
 class App extends Component {
   render() {
@@ -89,7 +89,7 @@ class App extends Component {
                   <input type="email" name="_replyto" placeholder="Email"/>
                 </div>
                 <div className="form_class_message">
-                  <textarea type="text" name="message" placeholder="Mensagem"/>
+                  <input type="text" name="message" placeholder="Mensagem"/>
                 </div>
                 <div className="form_class">
                   <button className="btn-submit" type="submit" value="Send">
@@ -104,7 +104,11 @@ class App extends Component {
         </div>
 
         <div className="footer">
-
+          {/* <div className="social-btns">
+            <a className="btn facebook" href="#"><i class="fa fa-facebook"></i></a>
+            <a className="btn twitter" href="#"><i class="fa fa-twitter"></i></a>
+            <a className="btn google" href="#"><i class="fa fa-google"></i></a>
+          </div> */}
           <small>
             <p>MADE BY ME...YES...<a href="https://github.com/oliverigor">IGOR</a></p>
           </small>
