@@ -67,8 +67,10 @@ class App extends Component {
             <div>
               <h1 className="title">TRABALHO ATUAL</h1>
               <h2 className="text_box">
-                Atualmente estou trabalhando na Secretaria de Educação de
-                Brasília como Web designer e desenvolvedor Front-end.
+                Atualmente estou trabalhando na <a href="https://liva.vc/">
+                  Liva
+                </a>
+                como desenvolvedor Front-end.
               </h2>
             </div>
           </div>
