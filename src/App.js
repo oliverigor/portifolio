@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
 import Messenger from "./messenger.js";
-import Photo from "./photo.png";
 import Skills from "./skills.svg";
 import Computer from "./computer.svg";
 import Job from "./job.svg";
@@ -16,12 +15,12 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-Louco">
-          <img className="self-photo" src={Myself} width={200} />
+          <img alt="selfie" className="self-photo" src={Myself} width={200} />
           <h1 className="App-title">Igor Martins</h1>
         </div>
 
         <div style={{ height: "80px" }}>
-          <p className="App-intro">
+          <div className="App-intro" style={{ color: "#bbb" }}>
             <Messenger
               news={[
                 "Fala veei",
@@ -31,12 +30,12 @@ class App extends Component {
                 "sou aspirante a desenvolvedor full-stack!!"
               ]}
             />
-          </p>
+          </div>
         </div>
 
         <div className="skill_set">
           <div className="skill_box">
-            <img src={Computer} width={100} />
+            <img alt="computer" src={Computer} width={200} height={300} />
             <div>
               <h1 className="title">PROJETOS</h1>
               <h2 className="text_box">
@@ -52,7 +51,7 @@ class App extends Component {
             </div>
           </div>
           <div className="skill_box">
-            <img src={Skills} width={100} />
+            <img alt="skills" src={Skills} width={200} height={300} />
             <div>
               <h1 className="title">HABILIDADES</h1>
               <h2 className="text_box">
@@ -63,21 +62,22 @@ class App extends Component {
             </div>
           </div>
           <div className="skill_box">
-            <img src={Current} width={100} />
+            <img alt="current" src={Current} width={100} height={300} />
             <div>
               <h1 className="title">TRABALHO ATUAL</h1>
               <h2 className="text_box">
-                Atualmente estou trabalhando na <a href="https://liva.vc/">
-                  Liva
-                </a>
-                como desenvolvedor Front-end.
+                Atualmente estou trabalhando na{" "}
+                <a href="https://liva.vc/">Liva</a> como desenvolvedor
+                Front-end.
               </h2>
             </div>
           </div>
           <div className="skill_box">
-            <img src={Like} width={100} />
+            <img alt="like" src={Like} width={100} />
             <div>
-              <h1 className="title">O QUE EU CURTO</h1>
+              <h1 className="title" style={{ paddingTop: "33px" }}>
+                O QUE EU CURTO
+              </h1>
               <h2 className="text_box">
                 Além de programação front-end, meus interesses atuais são
                 inteligência artificial e <i>machine learning</i>. Colocando a
@@ -88,7 +88,7 @@ class App extends Component {
             </div>
           </div>
           <div className="skill_box">
-            <img src={Job} width={100} />
+            <img alt="job" src={Job} width={100} />
             <div>
               <h1 className="title">QUER FAZER UMA PROPOSTA?</h1>
               <h2 className="text_box">
@@ -101,7 +101,7 @@ class App extends Component {
             </div>
           </div>
           <div className="skill_box">
-            <img src={Letter} width={100} />
+            <img alt="letter" src={Letter} width={100} />
             <div>
               <h1 className="title">DEIXE SUA MENSAGEM</h1>
               <h2 className="text_box">
@@ -137,16 +137,24 @@ class App extends Component {
         </div>
 
         <div className="footer">
-          {/* <div className="social-btns">
-            <a className="btn facebook" href="#"><i class="fa fa-facebook"></i></a>
-            <a className="btn twitter" href="#"><i class="fa fa-twitter"></i></a>
-            <a className="btn google" href="#"><i class="fa fa-google"></i></a>
-          </div> */}
+          <div className="social-btns">
+            <a
+              className="btn facebook"
+              href="https://www.facebook.com/oliveigor"
+            >
+              <i class="fa fa-facebook" />
+            </a>
+            <a className="btn twitter" href="https://twitter.com/OliverNiggor">
+              <i class="fa fa-twitter" />
+            </a>
+            <a className="btn google" href="m.oliverunb@gmail.com">
+              <i class="fa fa-google" />
+            </a>
+          </div>
           <small>
             <p>
-              MADE BY ME...YES...<a href="https://github.com/oliverigor">
-                IGOR
-              </a>
+              MADE BY ME...YES...
+              <a href="https://github.com/oliverigor">IGOR</a>
             </p>
           </small>
         </div>
