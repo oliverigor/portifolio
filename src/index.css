@@ -84,6 +84,14 @@ a {
   input {
     width: 30px;
   }
+
+  .rocket {
+    visibility: hidden;
+  }
+
+  .react {
+    visibility: hidden;
+  }
 }
 
 .skill_box {
@@ -154,4 +162,22 @@ textarea {
   width: 100px;
   margin-top: 20px;
   height: 40px;
+}
+
+.rocket {
+  position: absolute;
+  right: 15%;
+  width: 500px;
+  height: 500px;
+  margin-top: -250px; /* Half the height */
+  margin-left: -250px;
+}
+
+.react {
+  position: absolute;
+  left: 15%;
+  width: 500px;
+  height: 500px;
+  margin-top: -250px; /* Half the height */
+  margin-left: -250px;
 }
