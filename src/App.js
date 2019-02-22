@@ -73,7 +73,7 @@ class App extends Component {
                 >
                   MouseLabs
                 </a>{" "}
-                e{" "}
+                {PageLanguage.message13}
                 <a
                   rel="noopener noreferrer"
                   target="_blank"

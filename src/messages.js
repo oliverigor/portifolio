@@ -20,6 +20,7 @@ export default {
     message10: "Resume",
     message11: "Fell free to leave me some words, I can answer you ASAP",
     message12: "Kisses, and best regards",
+    message13: "and ",
     presentation1: "What's uuup",
     presentation2: "my name is igor",
     presentation3: "I'm an automotive engineer",
@@ -60,6 +61,7 @@ export default {
     message11:
       "Sinta-se livre para me deixar algumas palavras, posso te retornar assim que possível.",
     message12: "Beijos e é nois",
+    message13: "e ",
     presentation1: "Fala veei",
     presentation2: "me chamo igor",
     presentation3: "sou engenheiro automotivo",
