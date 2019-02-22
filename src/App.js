@@ -15,6 +15,13 @@ class App extends Component {
   state = {
     language: "pt-BR"
   };
+
+  languageEN = () => {
+    this.setState({ language: "en-US" });
+  };
+  languagePT = () => {
+    this.setState({ language: "pt-BR" });
+  };
   render() {
     const PageLanguage = Messages[this.state.language];
     return (
@@ -28,17 +35,19 @@ class App extends Component {
           <div className="App-intro" style={{ color: "#bbb" }}>
             <Messenger
               news={[
-                "Fala veei",
-                "me chamo igor",
-                "sou engenheiro automotivo ",
-                "mas agora",
-                "sou aspirante a desenvolvedor full-stack!!"
+                `${PageLanguage.presentation1}`,
+                `${PageLanguage.presentation2}`,
+                `${PageLanguage.presentation3}`,
+                `${PageLanguage.presentation4}`,
+                `${PageLanguage.presentation5}`
               ]}
             />
           </div>
         </div>
 
         <div className="skill_set">
+          <button onClick={() => this.languageEN()}>EN</button>
+          <button onClick={() => this.languagePT()}>PT</button>
           <div className="skill_box">
             <img alt="computer" src={Computer} width={200} height={300} />
             <div>
@@ -233,19 +242,37 @@ class App extends Component {
               method="POST"
             >
               <div className="form_class">
-                <input type="text" name="name" placeholder="Nome" />
+                <input
+                  type="text"
+                  name="name"
+                  placeholder={`${PageLanguage.placeholder1}`}
+                  className="input-text"
+                />
               </div>
               <div className="form_class">
-                <input type="email" name="_replyto" placeholder="Email" />
+                <input
+                  type="email"
+                  name="_replyto"
+                  placeholder={`${PageLanguage.placeholder2}`}
+                  className="input-text"
+                />
               </div>
               <div className="form_class_message">
-                <input type="text" name="message" placeholder="Mensagem" />
+                <input
+                  type="text"
+                  name="message"
+                  placeholder={`${PageLanguage.placeholder3}`}
+                  className="input-text"
+                />
               </div>
-              <div className="form_class">
-                <button className="btn-submit" type="submit" value="Send">
-                  <h5 style={{ verticalAlign: "middle", margin: "0px" }}>
-                    Enviar
-                  </h5>
+              <div className="form_class padding8">
+                <button className="learn-more" type="submit">
+                  <div className="circle">
+                    <span className="icon arrow" />
+                  </div>
+                  <p className="button-text">{`${
+                    PageLanguage.placeholder4
+                  }`}</p>
                 </button>
               </div>
             </form>

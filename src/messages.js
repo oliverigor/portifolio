@@ -19,10 +19,19 @@ export default {
     message9: "I would love to work with you on UI/UX projects, Web or Mobile",
     message10: "Resume",
     message11: "Fell free to leave me some words, I can answer you ASAP",
-    message12: "Kisses, and best regards"
+    message12: "Kisses, and best regards",
+    presentation1: "What's uuup",
+    presentation2: "my name is igor",
+    presentation3: "I'm an automotive engineer",
+    presentation4: "but from now on",
+    presentation5: "I'm an aspiring full-stack developer!!",
+    placeholder1: "Name",
+    placeholder2: "Email",
+    placeholder3: "Message",
+    placeholder4: "Send"
   },
   "pt-BR": {
-    title1: "Projetos",
+    title1: "PROJETOS",
     title2: "HABILIDADES",
     title3: "TRABALHO ATUAL",
     title4: "O QUE EU CURTO",
@@ -44,6 +53,15 @@ export default {
     message10: "Currículo",
     message11:
       "Sinta-se livre para me deixar algumas palavras, posso te retornar assim que possível.",
-    message12: "Beijos e é nois"
+    message12: "Beijos e é nois",
+    presentation1: "Fala veei",
+    presentation2: "me chamo igor",
+    presentation3: "sou engenheiro automotivo",
+    presentation4: "mas agora",
+    presentation5: "sou aspirante a desenvolvedor full-stack!!",
+    placeholder1: "Nome",
+    placeholder2: "Email",
+    placeholder3: "Mensagem",
+    placeholder4: "Enviar"
   }
 };
