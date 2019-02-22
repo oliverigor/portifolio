@@ -9,9 +9,14 @@ import Like from "./like.svg";
 import Current from "./curriculum.svg";
 import Myself from "./igorphoto.png";
 import "font-awesome/css/font-awesome.min.css";
+import Messages from "./messages";
 
 class App extends Component {
+  state = {
+    language: "pt-BR"
+  };
   render() {
+    const PageLanguage = Messages[this.state.language];
     return (
       <div className="App">
         <div className="App-Louco">
@@ -37,15 +42,13 @@ class App extends Component {
           <div className="skill_box">
             <img alt="computer" src={Computer} width={200} height={300} />
             <div>
-              <h1 className="title">PROJETOS</h1>
+              <h1 className="title">{PageLanguage.title1}</h1>
               <h2 className="text_box">
                 <a href="https://www.paguecripto.com/">PagueCripto</a>,{" "}
                 <a href="http://www.mouselabs.com.br">MouseLabs</a> e{" "}
-                <a href="http://www.liva.vc">Liva</a>, são alguns de meus
-                trabalhos mais recentes. Conto também com alguns projetos da
-                plataforma{" "}
-                <a href="https://www.freecodecamp.org">FreeCodeCamp</a> para
-                obter os certificados, porém estão <b>em progresso...</b>
+                <a href="http://www.liva.vc">Liva</a>, {PageLanguage.message1}
+                <a href="https://www.freecodecamp.org">FreeCodeCamp</a>{" "}
+                {PageLanguage.message2} <b>{PageLanguage.message3}</b>
               </h2>
             </div>
           </div>
@@ -112,7 +115,7 @@ class App extends Component {
           <div className="skill_box">
             <img alt="skills" src={Skills} width={200} height={300} />
             <div>
-              <h1 className="title">HABILIDADES</h1>
+              <h1 className="title">{PageLanguage.title2}</h1>
               <h2 className="text_box">
                 C, C++, Lua, NCL, Java, ActionScript 3.0, Python, HTML, CSS,
                 Jade, Sass, JavaScript, JQuery, ReactJS, React Router, React
@@ -123,11 +126,10 @@ class App extends Component {
           <div className="skill_box">
             <img alt="current" src={Current} width={160} height={300} />
             <div>
-              <h1 className="title">TRABALHO ATUAL</h1>
+              <h1 className="title">{PageLanguage.title3}</h1>
               <h2 className="text_box">
-                Atualmente estou trabalhando na{" "}
-                <a href="https://liva.vc/">Liva</a> como desenvolvedor
-                Front-end.
+                {PageLanguage.message4} <a href="https://liva.vc/">Liva</a>{" "}
+                {PageLanguage.message5}
               </h2>
             </div>
           </div>
@@ -135,13 +137,10 @@ class App extends Component {
           <div className="skill_box">
             <img alt="like" src={Like} width={200} height={300} />
             <div>
-              <h1 className="title">O QUE EU CURTO</h1>
+              <h1 className="title">{PageLanguage.title4}</h1>
               <h2 className="text_box">
-                Além de programação front-end, meus interesses atuais são
-                inteligência artificial e <i>machine learning</i>. Colocando a
-                tecnologia de lado eu amo música, tudo que envolve produção
-                musical, video games e cinema, basicamente eu vivo e consumo
-                essas coisas.
+                {PageLanguage.message6} <i>{PageLanguage.message7}</i>.{" "}
+                {PageLanguage.message8}
               </h2>
             </div>
           </div>
@@ -209,12 +208,11 @@ class App extends Component {
           <div className="skill_box">
             <img alt="job" src={Job} width={160} height={300} />
             <div>
-              <h1 className="title">QUER FAZER UMA PROPOSTA?</h1>
+              <h1 className="title">{PageLanguage.title5}</h1>
               <h2 className="text_box">
-                Eu adoraria trabalhar com vocês em projetos UI/UX para Web ou
-                Mobile. <br />
+                {PageLanguage.message9} <br />
                 <a href="https://docs.google.com/document/d/1CpUH9MoX992QVNsFsSqxNhiw7VePwlzrjpe4lwsX7A4/edit?usp=sharing">
-                  Currículo
+                  {PageLanguage.message10}
                 </a>
               </h2>
             </div>
@@ -222,10 +220,9 @@ class App extends Component {
           <div className="skill_box">
             <img alt="letter" src={Letter} width={160} height={300} />
             <div>
-              <h1 className="title">DEIXE SUA MENSAGEM</h1>
+              <h1 className="title">{PageLanguage.title6}</h1>
               <h2 className="text_box">
-                Sinta-se livre para me deixar algumas palavras, posso te
-                retornar assim que possível. <br /> Beijos e é nois.
+                {PageLanguage.message11} <br /> {PageLanguage.message12}.
               </h2>
             </div>
           </div>
@@ -258,19 +255,32 @@ class App extends Component {
         <div className="footer">
           <div className="social-btns">
             <a
+              target="_blank"
               className="btn facebook"
               href="https://www.facebook.com/oliveigor"
             >
               <i className="fa fa-facebook" />
             </a>
-            <a className="btn twitter" href="https://twitter.com/OliverNiggor">
+            <a
+              target="_blank"
+              className="btn twitter"
+              href="https://twitter.com/OliverNiggor"
+            >
               <i className="fa fa-twitter" />
             </a>
             <a
+              target="_blank"
               className="btn google"
               href="https://mail.google.com/mail/?view=cm&fs=1&to=m.oliverunb@gmail.com"
             >
               <i className="fa fa-google" />
+            </a>
+            <a
+              target="_blank"
+              className="btn github"
+              href="https://github.com/oliverigor"
+            >
+              <i className="fa fa-github" />
             </a>
           </div>
           <small>
