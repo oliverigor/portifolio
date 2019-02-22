@@ -6,7 +6,7 @@ export default {
     title4: "WHAT I'M INTO",
     title5: "WANT TO MAKE A JOB OFFER ?",
     title6: "LEAVE A MESSAGE",
-    message1: "are some of my recent work, I have some projects as well on",
+    message1: "are some of my recent work, I have some projects as well on ",
     message2: "to get the certificates, but for now they're",
     message3: "in progress...",
     message4: "Currently I'm working at",
@@ -28,7 +28,13 @@ export default {
     placeholder1: "Name",
     placeholder2: "Email",
     placeholder3: "Message",
-    placeholder4: "Send"
+    placeholder4: "Send",
+    link:
+      "https://docs.google.com/document/d/1T8zi6ydTywaDrizmFtcmlbc4mweJIw5LwLniBbbRjlc/edit?usp=sharing",
+    mongoP:
+      "https://drive.google.com/open?id=1BZZCdquQIQNeGQBQiHIWBrhzyxW19rE3",
+    mongoJS:
+      "https://drive.google.com/open?id=1__a0qOFjsd80xnYS_2khv97npOGGt5gm"
   },
   "pt-BR": {
     title1: "PROJETOS",
@@ -62,6 +68,12 @@ export default {
     placeholder1: "Nome",
     placeholder2: "Email",
     placeholder3: "Mensagem",
-    placeholder4: "Enviar"
+    placeholder4: "Enviar",
+    link:
+      "https://docs.google.com/document/d/1CpUH9MoX992QVNsFsSqxNhiw7VePwlzrjpe4lwsX7A4/edit?usp=sharing",
+    mongoP:
+      "https://drive.google.com/open?id=1BZZCdquQIQNeGQBQiHIWBrhzyxW19rE3",
+    mongoJS:
+      "https://drive.google.com/open?id=1__a0qOFjsd80xnYS_2khv97npOGGt5gm"
   }
 };

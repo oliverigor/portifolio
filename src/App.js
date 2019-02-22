@@ -44,19 +44,51 @@ class App extends Component {
             />
           </div>
         </div>
-
+        <div className="align-center">
+          <button className=" btn-lang" onClick={() => this.languageEN()}>
+            <span>en-US.</span>
+          </button>
+          <button className="btn-lang" onClick={() => this.languagePT()}>
+            <span>pt-BR.</span>
+          </button>
+        </div>
         <div className="skill_set">
-          <button onClick={() => this.languageEN()}>EN</button>
-          <button onClick={() => this.languagePT()}>PT</button>
           <div className="skill_box">
             <img alt="computer" src={Computer} width={200} height={300} />
             <div>
               <h1 className="title">{PageLanguage.title1}</h1>
               <h2 className="text_box">
-                <a href="https://www.paguecripto.com/">PagueCripto</a>,{" "}
-                <a href="http://www.mouselabs.com.br">MouseLabs</a> e{" "}
-                <a href="http://www.liva.vc">Liva</a>, {PageLanguage.message1}
-                <a href="https://www.freecodecamp.org">FreeCodeCamp</a>{" "}
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://www.paguecripto.com/"
+                >
+                  PagueCripto
+                </a>
+                ,{" "}
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="http://www.mouselabs.com.br"
+                >
+                  MouseLabs
+                </a>{" "}
+                e{" "}
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="http://www.liva.vc"
+                >
+                  Liva
+                </a>
+                , {PageLanguage.message1}
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://www.freecodecamp.org"
+                >
+                  FreeCodeCamp
+                </a>{" "}
                 {PageLanguage.message2} <b>{PageLanguage.message3}</b>
               </h2>
             </div>
@@ -128,7 +160,23 @@ class App extends Component {
               <h2 className="text_box">
                 C, C++, Lua, NCL, Java, ActionScript 3.0, Python, HTML, CSS,
                 Jade, Sass, JavaScript, JQuery, ReactJS, React Router, React
-                Native, Redux, D3.js, Node.js, Angular, Express, MongoDB, Git.
+                Native, Redux, D3.js, Node.js, Angular, Express,{" "}
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href={`${PageLanguage.mongoP}`}
+                >
+                  MongoDBPython
+                </a>
+                ,{" "}
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href={`${PageLanguage.mongoJS}`}
+                >
+                  MongoDBJS
+                </a>
+                , Git.
               </h2>
             </div>
           </div>
@@ -137,7 +185,14 @@ class App extends Component {
             <div>
               <h1 className="title">{PageLanguage.title3}</h1>
               <h2 className="text_box">
-                {PageLanguage.message4} <a href="https://liva.vc/">Liva</a>{" "}
+                {PageLanguage.message4}{" "}
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://liva.vc/"
+                >
+                  Liva
+                </a>{" "}
                 {PageLanguage.message5}
               </h2>
             </div>
@@ -220,7 +275,11 @@ class App extends Component {
               <h1 className="title">{PageLanguage.title5}</h1>
               <h2 className="text_box">
                 {PageLanguage.message9} <br />
-                <a href="https://docs.google.com/document/d/1CpUH9MoX992QVNsFsSqxNhiw7VePwlzrjpe4lwsX7A4/edit?usp=sharing">
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href={`${PageLanguage.link}`}
+                >
                   {PageLanguage.message10}
                 </a>
               </h2>
@@ -282,6 +341,7 @@ class App extends Component {
         <div className="footer">
           <div className="social-btns">
             <a
+              rel="noopener noreferrer"
               target="_blank"
               className="btn facebook"
               href="https://www.facebook.com/oliveigor"
@@ -289,6 +349,7 @@ class App extends Component {
               <i className="fa fa-facebook" />
             </a>
             <a
+              rel="noopener noreferrer"
               target="_blank"
               className="btn twitter"
               href="https://twitter.com/OliverNiggor"
@@ -296,6 +357,7 @@ class App extends Component {
               <i className="fa fa-twitter" />
             </a>
             <a
+              rel="noopener noreferrer"
               target="_blank"
               className="btn google"
               href="https://mail.google.com/mail/?view=cm&fs=1&to=m.oliverunb@gmail.com"
@@ -303,6 +365,7 @@ class App extends Component {
               <i className="fa fa-google" />
             </a>
             <a
+              rel="noopener noreferrer"
               target="_blank"
               className="btn github"
               href="https://github.com/oliverigor"
@@ -313,7 +376,13 @@ class App extends Component {
           <small>
             <p>
               MADE BY ME...YES...
-              <a href="https://github.com/oliverigor">IGOR</a>
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://github.com/oliverigor"
+              >
+                IGOR
+              </a>
             </p>
           </small>
         </div>
