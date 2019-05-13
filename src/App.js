@@ -1,26 +1,27 @@
-import React, { Component } from "react";
-import "./App.css";
-import Messenger from "./messenger.js";
-import Skills from "./skills.svg";
-import Computer from "./computer.svg";
-import Job from "./job.svg";
-import Letter from "./letter.svg";
-import Like from "./like.svg";
-import Current from "./curriculum.svg";
-import Myself from "./igorphoto.png";
-import "font-awesome/css/font-awesome.min.css";
-import Messages from "./messages";
+import React, { Component } from 'react';
+import './App.css';
+import Messenger from './messenger.js';
+import Skills from './skills.svg';
+import Computer from './computer.svg';
+import Job from './job.svg';
+import Letter from './letter.svg';
+import Like from './like.svg';
+import Current from './curriculum.svg';
+import Myself from './igorphoto.png';
+import Projects from './project.svg';
+import 'font-awesome/css/font-awesome.min.css';
+import Messages from './messages';
 
 class App extends Component {
   state = {
-    language: "pt-BR"
+    language: 'en-US'
   };
 
   languageEN = () => {
-    this.setState({ language: "en-US" });
+    this.setState({ language: 'en-US' });
   };
   languagePT = () => {
-    this.setState({ language: "pt-BR" });
+    this.setState({ language: 'pt-BR' });
   };
   render() {
     const PageLanguage = Messages[this.state.language];
@@ -31,8 +32,8 @@ class App extends Component {
           <h1 className="App-title">Igor Martins</h1>
         </div>
 
-        <div style={{ height: "80px" }}>
-          <div className="App-intro" style={{ color: "#bbb" }}>
+        <div style={{ height: '80px' }}>
+          <div className="App-intro" style={{ color: '#bbb' }}>
             <Messenger
               news={[
                 `${PageLanguage.presentation1}`,
@@ -65,14 +66,14 @@ class App extends Component {
                 >
                   PagueCripto
                 </a>
-                ,{" "}
+                ,{' '}
                 <a
                   rel="noopener noreferrer"
                   target="_blank"
                   href="http://www.mouselabs.com.br"
                 >
                   MouseLabs
-                </a>{" "}
+                </a>{' '}
                 {PageLanguage.message13}
                 <a
                   rel="noopener noreferrer"
@@ -82,13 +83,6 @@ class App extends Component {
                   Liva
                 </a>
                 , {PageLanguage.message1}
-                <a
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  href="https://www.freecodecamp.org"
-                >
-                  FreeCodeCamp
-                </a>{" "}
                 {PageLanguage.message2} <b>{PageLanguage.message3}</b>
               </h2>
             </div>
@@ -154,13 +148,70 @@ class App extends Component {
             </div>
           </div>
           <div className="skill_box">
+            <img alt="computer" src={Projects} width={200} height={300} />
+            <div>
+              <h1 className="title">Fun projects</h1>
+              <h2 className="text_box">
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://github.com/oliverigor/OliverMarketPlace"
+                >
+                  OliverMarketPlace
+                </a>{' '}
+                - {PageLanguage.message14} NodeJs, MongoDB{' '}
+                {PageLanguage.message13} Nodemailer.
+                <br />
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://github.com/oliverigor/BarberPoint"
+                >
+                  BarberPoint
+                </a>{' '}
+                - {PageLanguage.message14} NodeJs, Sequelize{' '}
+                {PageLanguage.message13} Nunjucks.
+                <br />
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://github.com/oliverigor/FullStackJsAppUpload-frontend"
+                >
+                  UploadApp
+                </a>{' '}
+                - {PageLanguage.message14} ReactJs, React-Native{' '}
+                {PageLanguage.message13} NodeJs.
+                <br />
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://github.com/oliverigor/twitter-like"
+                >
+                  Twitter-like
+                </a>{' '}
+                - {PageLanguage.message14} ReactJs, React-Native{' '}
+                {PageLanguage.message13} NodeJs.
+                <br />
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://github.com/oliverigor/OliverGitHubFavorites-React-Redux"
+                >
+                  GitFavorites
+                </a>{' '}
+                - {PageLanguage.message14} ReactJs, Redux{' '}
+                {PageLanguage.message13} Redux-Saga.
+              </h2>
+            </div>
+          </div>
+          <div className="skill_box">
             <img alt="skills" src={Skills} width={200} height={300} />
             <div>
               <h1 className="title">{PageLanguage.title2}</h1>
               <h2 className="text_box">
                 C, C++, Lua, NCL, Java, ActionScript 3.0, Python, HTML, CSS,
                 Jade, Sass, JavaScript, JQuery, ReactJS, React Router, React
-                Native, Redux, D3.js, Node.js, Angular, Express,{" "}
+                Native, Redux, D3.js, Node.js, Angular, Express,{' '}
                 <a
                   rel="noopener noreferrer"
                   target="_blank"
@@ -168,7 +219,7 @@ class App extends Component {
                 >
                   MongoDBPython
                 </a>
-                ,{" "}
+                ,{' '}
                 <a
                   rel="noopener noreferrer"
                   target="_blank"
@@ -185,14 +236,14 @@ class App extends Component {
             <div>
               <h1 className="title">{PageLanguage.title3}</h1>
               <h2 className="text_box">
-                {PageLanguage.message4}{" "}
+                {PageLanguage.message4}{' '}
                 <a
                   rel="noopener noreferrer"
                   target="_blank"
                   href="https://liva.vc/"
                 >
                   Liva
-                </a>{" "}
+                </a>{' '}
                 {PageLanguage.message5}
               </h2>
             </div>
@@ -203,7 +254,7 @@ class App extends Component {
             <div>
               <h1 className="title">{PageLanguage.title4}</h1>
               <h2 className="text_box">
-                {PageLanguage.message6} <i>{PageLanguage.message7}</i>.{" "}
+                {PageLanguage.message6} <i>{PageLanguage.message7}</i>.{' '}
                 {PageLanguage.message8}
               </h2>
             </div>
