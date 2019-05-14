@@ -159,7 +159,7 @@ class App extends Component {
                 >
                   OliverMarketPlace
                 </a>{' '}
-                - {PageLanguage.message14} NodeJs, MongoDB{' '}
+                - {PageLanguage.message14} NodeJs, MongoDB, Docker{' '}
                 {PageLanguage.message13} Nodemailer.
                 <br />
                 <a
@@ -169,7 +169,7 @@ class App extends Component {
                 >
                   BarberPoint
                 </a>{' '}
-                - {PageLanguage.message14} NodeJs, Sequelize{' '}
+                - {PageLanguage.message14} NodeJs, Sequelize, Docker{' '}
                 {PageLanguage.message13} Nunjucks.
                 <br />
                 <a
