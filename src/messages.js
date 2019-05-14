@@ -11,7 +11,7 @@ export default {
       'you can check them on my github or in the next section, and I have more',
     message3: 'in progress...',
     message4: "Currently I'm working at",
-    message5: 'as a front-end developer',
+    message5: 'as a full-stack developer',
     message6:
       'Besides front-end programming, my actual interests are artificial intelligence and ',
     message7: 'machine learning',
@@ -52,7 +52,7 @@ export default {
       'você pode checar no meu github ou na próxima seção, e tenho mais',
     message3: 'em progresso...',
     message4: 'Atualmente estou trabalhando na',
-    message5: 'como desenvolvedor Front-end',
+    message5: 'como desenvolvedor full-stack',
     message6:
       'Além de programação front-end, meus interesses atuais são inteligência artificial e',
     message7: 'machine learning',
