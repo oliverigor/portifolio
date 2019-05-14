@@ -211,7 +211,7 @@ class App extends Component {
               <h2 className="text_box">
                 C, C++, Lua, NCL, Java, ActionScript 3.0, Python, HTML, CSS,
                 Jade, Sass, JavaScript, JQuery, ReactJS, React Router, React
-                Native, Redux, D3.js, Node.js, Angular, Express,{' '}
+                Native, Redux, Aws, Docker, D3.js, Node.js, Angular, Express,{' '}
                 <a
                   rel="noopener noreferrer"
                   target="_blank"
