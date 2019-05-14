@@ -55,7 +55,7 @@ class App extends Component {
         </div>
         <div className="skill_set">
           <div className="skill_box">
-            <img alt="computer" src={Computer} width={200} height={300} />
+            <img alt="computer" src={Computer} className="img-project" />
             <div>
               <h1 className="title">{PageLanguage.title1}</h1>
               <h2 className="text_box">
@@ -148,7 +148,7 @@ class App extends Component {
             </div>
           </div>
           <div className="skill_box">
-            <img alt="computer" src={Projects} width={200} height={300} />
+            <img alt="computer" src={Projects} className="img-project-fun" />
             <div>
               <h1 className="title">Fun projects</h1>
               <h2 className="text_box">
@@ -205,7 +205,7 @@ class App extends Component {
             </div>
           </div>
           <div className="skill_box">
-            <img alt="skills" src={Skills} width={200} height={300} />
+            <img alt="skills" src={Skills} className="img-skills" />
             <div>
               <h1 className="title">{PageLanguage.title2}</h1>
               <h2 className="text_box">
@@ -232,7 +232,7 @@ class App extends Component {
             </div>
           </div>
           <div className="skill_box">
-            <img alt="current" src={Current} width={160} height={300} />
+            <img alt="current" src={Current} className="img-current" />
             <div>
               <h1 className="title">{PageLanguage.title3}</h1>
               <h2 className="text_box">
@@ -250,7 +250,7 @@ class App extends Component {
           </div>
 
           <div className="skill_box">
-            <img alt="like" src={Like} width={200} height={300} />
+            <img alt="like" src={Like} className="img-like" />
             <div>
               <h1 className="title">{PageLanguage.title4}</h1>
               <h2 className="text_box">
@@ -321,7 +321,7 @@ class App extends Component {
             </svg>
           </div>
           <div className="skill_box">
-            <img alt="job" src={Job} width={160} height={300} />
+            <img alt="job" src={Job} className="img-job" />
             <div>
               <h1 className="title">{PageLanguage.title5}</h1>
               <h2 className="text_box">
@@ -337,7 +337,7 @@ class App extends Component {
             </div>
           </div>
           <div className="skill_box">
-            <img alt="letter" src={Letter} width={160} height={300} />
+            <img alt="letter" src={Letter} className="img-email" />
             <div>
               <h1 className="title">{PageLanguage.title6}</h1>
               <h2 className="text_box">
