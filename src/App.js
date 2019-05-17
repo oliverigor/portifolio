@@ -403,7 +403,7 @@ class App extends Component {
               rel="noopener noreferrer"
               target="_blank"
               className="btn twitter"
-              href="https://twitter.com/OliverNiggor"
+              href="https://twitter.com/oliverig0r"
             >
               <i className="fa fa-twitter" />
             </a>
