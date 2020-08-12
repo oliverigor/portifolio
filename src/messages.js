@@ -16,7 +16,7 @@ export default {
       'Besides front-end programming, my actual interests are artificial intelligence and ',
     message7: 'machine learning',
     message8:
-      'putting technology aside, I love music, everything that envolves music production, video games and cinema, basically I live and breathe this things',
+      'putting technology aside, I love music, everything that involves music production, video games, and cinema, basically I live and breathe these things',
     message9: 'I would love to work with you on UI/UX projects, Web or Mobile',
     message10: 'Resume',
     message11: 'Fell free to leave me some words, I can answer you ASAP',
@@ -82,4 +82,4 @@ export default {
     mongoJS:
       'https://drive.google.com/open?id=1__a0qOFjsd80xnYS_2khv97npOGGt5gm'
   }
-};
+}
