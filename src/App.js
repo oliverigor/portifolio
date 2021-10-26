@@ -53,19 +53,11 @@ const App = () => {
           <div>
             <h1 className='title'>{PageLanguage.title1}</h1>
             <h2 className='text_box'>
-              <a
-                rel='noopener noreferrer'
-                target='_blank'
-                href='https://www.alterbank.com.br/'
-              >
+              <a rel='noopener noreferrer' target='_blank' href='https://www.alterbank.com.br/'>
                 AlterBank
               </a>{' '}
               {PageLanguage.message13}
-              <a
-                rel='noopener noreferrer'
-                target='_blank'
-                href='http://www.liva.vc'
-              >
+              <a rel='noopener noreferrer' target='_blank' href='http://www.liva.vc'>
                 Liva
               </a>
               , {PageLanguage.message1}
@@ -145,8 +137,8 @@ const App = () => {
               >
                 OliverMarketPlace
               </a>{' '}
-              - {PageLanguage.message14} NodeJs, MongoDB, Docker{' '}
-              {PageLanguage.message13} Nodemailer.
+              - {PageLanguage.message14} NodeJs, MongoDB, Docker {PageLanguage.message13}{' '}
+              Nodemailer.
               <br />
               <a
                 rel='noopener noreferrer'
@@ -155,8 +147,8 @@ const App = () => {
               >
                 BarberPoint
               </a>{' '}
-              - {PageLanguage.message14} NodeJs, Sequelize, Docker{' '}
-              {PageLanguage.message13} Nunjucks.
+              - {PageLanguage.message14} NodeJs, Sequelize, Docker {PageLanguage.message13}{' '}
+              Nunjucks.
               <br />
               <a
                 rel='noopener noreferrer'
@@ -165,8 +157,7 @@ const App = () => {
               >
                 UploadApp
               </a>{' '}
-              - {PageLanguage.message14} ReactJs, React-Native{' '}
-              {PageLanguage.message13} NodeJs.
+              - {PageLanguage.message14} ReactJs, React-Native {PageLanguage.message13} NodeJs.
               <br />
               <a
                 rel='noopener noreferrer'
@@ -175,8 +166,7 @@ const App = () => {
               >
                 Twitter-like
               </a>{' '}
-              - {PageLanguage.message14} ReactJs, React-Native{' '}
-              {PageLanguage.message13} NodeJs.
+              - {PageLanguage.message14} ReactJs, React-Native {PageLanguage.message13} NodeJs.
               <br />
               <a
                 rel='noopener noreferrer'
@@ -185,8 +175,7 @@ const App = () => {
               >
                 GitFavorites
               </a>{' '}
-              - {PageLanguage.message14} ReactJs, Redux {PageLanguage.message13}{' '}
-              Redux-Saga.
+              - {PageLanguage.message14} ReactJs, Redux {PageLanguage.message13} Redux-Saga.
             </h2>
           </div>
         </div>
@@ -195,22 +184,14 @@ const App = () => {
           <div>
             <h1 className='title'>{PageLanguage.title2}</h1>
             <h2 className='text_box'>
-              C, C++, Lua, NCL, Java, ActionScript 3.0, Python, HTML, CSS, Jade,
-              Sass, JavaScript, JQuery, ReactJS, React Router, React Native,
-              Redux, Aws, Docker, D3.js, Express.js, Angular, Flutter,{' '}
-              <a
-                rel='noopener noreferrer'
-                target='_blank'
-                href={`${PageLanguage.mongoP}`}
-              >
+              C, C++, Lua, NCL, Java, ActionScript 3.0, Python, HTML, CSS, Jade, Sass, JavaScript,
+              JQuery, ReactJS, React Router, React Native, Redux, Aws, Docker, D3.js, Express.js,
+              Angular, Flutter,{' '}
+              <a rel='noopener noreferrer' target='_blank' href={`${PageLanguage.mongoP}`}>
                 MongoDBPython
               </a>
               ,{' '}
-              <a
-                rel='noopener noreferrer'
-                target='_blank'
-                href={`${PageLanguage.mongoJS}`}
-              >
+              <a rel='noopener noreferrer' target='_blank' href={`${PageLanguage.mongoJS}`}>
                 MongoDBJS
               </a>
               , Git.
@@ -223,12 +204,8 @@ const App = () => {
             <h1 className='title'>{PageLanguage.title3}</h1>
             <h2 className='text_box'>
               {PageLanguage.message4}{' '}
-              <a
-                rel='noopener noreferrer'
-                target='_blank'
-                href='https://killi.io/'
-              >
-                Killi
+              <a rel='noopener noreferrer' target='_blank' href='https://reklaimyours.com/'>
+                Reklaim
               </a>{' '}
               {PageLanguage.message5}
             </h2>
@@ -240,8 +217,7 @@ const App = () => {
           <div>
             <h1 className='title'>{PageLanguage.title4}</h1>
             <h2 className='text_box'>
-              {PageLanguage.message6} <i>{PageLanguage.message7}</i>.{' '}
-              {PageLanguage.message8}
+              {PageLanguage.message6} <i>{PageLanguage.message7}</i>. {PageLanguage.message8}
             </h2>
           </div>
         </div>
@@ -312,11 +288,7 @@ const App = () => {
             <h1 className='title'>{PageLanguage.title5}</h1>
             <h2 className='text_box'>
               {PageLanguage.message9} <br />
-              <a
-                rel='noopener noreferrer'
-                target='_blank'
-                href={`${PageLanguage.link}`}
-              >
+              <a rel='noopener noreferrer' target='_blank' href={`${PageLanguage.link}`}>
                 {PageLanguage.message10}
               </a>
             </h2>
@@ -333,10 +305,7 @@ const App = () => {
         </div>
 
         <div className='form_louco'>
-          <form
-            action='https://formspree.io/m.oliverunb@gmail.com'
-            method='POST'
-          >
+          <form action='https://formspree.io/m.oliverunb@gmail.com' method='POST'>
             <div className='form_class'>
               <input
                 type='text'
@@ -411,11 +380,7 @@ const App = () => {
         <small>
           <p>
             MADE BY ME...YES...
-            <a
-              rel='noopener noreferrer'
-              target='_blank'
-              href='https://github.com/oliverigor'
-            >
+            <a rel='noopener noreferrer' target='_blank' href='https://github.com/oliverigor'>
               IGOR
             </a>
           </p>
