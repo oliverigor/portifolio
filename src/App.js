@@ -3,7 +3,7 @@ import './App.css'
 import Messenger from './messenger.js'
 import Skills from './skills.svg'
 import Computer from './computer.svg'
-import Job from './job.svg'
+// import Job from './job.svg'
 import Letter from './letter.svg'
 import Like from './like.svg'
 import Current from './curriculum.svg'
@@ -204,8 +204,8 @@ const App = () => {
             <h1 className='title'>{PageLanguage.title3}</h1>
             <h2 className='text_box'>
               {PageLanguage.message4}{' '}
-              <a rel='noopener noreferrer' target='_blank' href='https://reklaimyours.com/'>
-                Reklaim
+              <a rel='noopener noreferrer' target='_blank' href='https://shopify.com/'>
+                Shopify
               </a>{' '}
               {PageLanguage.message5}
             </h2>
@@ -282,7 +282,7 @@ const App = () => {
             </g>
           </svg>
         </div>
-        <div className='skill_box'>
+        {/* <div className='skill_box'>
           <img alt='job' src={Job} className='img-job' />
           <div>
             <h1 className='title'>{PageLanguage.title5}</h1>
@@ -293,7 +293,7 @@ const App = () => {
               </a>
             </h2>
           </div>
-        </div>
+        </div> */}
         <div className='skill_box'>
           <img alt='letter' src={Letter} className='img-email' />
           <div>
