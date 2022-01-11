@@ -6,16 +6,9 @@ import Messenger from "./messenger.js"
 import RocketComponent from "./components/RocketComponent"
 import Footer from "./components/Footer"
 import Messages from "./messages.js"
-import {
-  Computer,
-  Skills,
-  Projects,
-  Current,
-  Like,
-  Letter,
-  Myself,
-} from "./images"
+import { Computer, Skills, Current, Like, Letter, Myself } from "./images"
 import AtomComponent from "./components/AtomComponent"
+import RecentProjects from "./components/RecentProjects"
 
 const App = () => {
   const [language, setLanguage] = useState("en-US")
@@ -87,63 +80,7 @@ const App = () => {
           </div>
         </div>
         <AtomComponent />
-        <div className="skill_box">
-          <img alt="computer" src={Projects} className="img-project-fun" />
-          <div>
-            <h1 className="title">Fun projects</h1>
-            <h2 className="text_box">
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://github.com/oliverigor/OliverMarketPlace"
-              >
-                OliverMarketPlace
-              </a>{" "}
-              - {PageLanguage.message14} NodeJs, MongoDB, Docker{" "}
-              {PageLanguage.message13} Nodemailer.
-              <br />
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://github.com/oliverigor/BarberPoint"
-              >
-                BarberPoint
-              </a>{" "}
-              - {PageLanguage.message14} NodeJs, Sequelize, Docker{" "}
-              {PageLanguage.message13} Nunjucks.
-              <br />
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://github.com/oliverigor/FullStackJsAppUpload-frontend"
-              >
-                UploadApp
-              </a>{" "}
-              - {PageLanguage.message14} ReactJs, React-Native{" "}
-              {PageLanguage.message13} NodeJs.
-              <br />
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://github.com/oliverigor/twitter-like"
-              >
-                Twitter-like
-              </a>{" "}
-              - {PageLanguage.message14} ReactJs, React-Native{" "}
-              {PageLanguage.message13} NodeJs.
-              <br />
-              <a
-                rel="noopener noreferrer"
-                target="_blank"
-                href="https://github.com/oliverigor/OliverGitHubFavorites-React-Redux"
-              >
-                GitFavorites
-              </a>{" "}
-              - {PageLanguage.message14} ReactJs, Redux {PageLanguage.message13}{" "}
-              Redux-Saga.
-            </h2>
-          </div>
-        </div>
+        <RecentProjects pageLanguage={PageLanguage} />
         <div className="skill_box">
           <img alt="skills" src={Skills} className="img-skills" />
           <div>
