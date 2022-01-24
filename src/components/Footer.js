@@ -8,14 +8,6 @@ const Footer = () => {
         <a
           rel="noopener noreferrer"
           target="_blank"
-          className="btn facebook"
-          href="https://www.facebook.com/oliveigor"
-        >
-          <i className="fa fa-facebook" />
-        </a>
-        <a
-          rel="noopener noreferrer"
-          target="_blank"
           className="btn twitter"
           href="https://twitter.com/oliverig0r"
         >
@@ -36,6 +28,14 @@ const Footer = () => {
           href="https://github.com/oliverigor"
         >
           <i className="fa fa-github" />
+        </a>
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          className="btn facebook"
+          href="https://www.linkedin.com/in/igor-de-oliveira-martins-624b4895/"
+        >
+          <i className="fa fa-linkedin" />
         </a>
       </div>
       {/* <small>
