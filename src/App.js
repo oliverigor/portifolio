@@ -1,21 +1,21 @@
-import React, { useState } from "react"
+import React from "react"
 import "./App.css"
 import "font-awesome/css/font-awesome.min.css"
 
-import Messenger from "./messenger.js"
-import RocketComponent from "./components/RocketComponent"
+// import Messenger from "./messenger.js"
+// import RocketComponent from "./components/RocketComponent"
 import Footer from "./components/Footer"
-import Messages from "./messages.js"
-import { Computer, Skills, Current, Like, Letter, Myself } from "./images"
-import AtomComponent from "./components/AtomComponent"
-import RecentProjects from "./components/RecentProjects"
+// import Messages from "./messages.js"
+import { Myself } from "./images"
+// import AtomComponent from "./components/AtomComponent"
+// import RecentProjects from "./components/RecentProjects"
 
 const App = () => {
-  const [language, setLanguage] = useState("en-US")
+  // const [language, setLanguage] = useState("en-US")
 
-  const languageEN = () => setLanguage("en-US")
-  const languagePT = () => setLanguage("pt-BR")
-  const PageLanguage = Messages[language]
+  // const languageEN = () => setLanguage("en-US")
+  // const languagePT = () => setLanguage("pt-BR")
+  // const PageLanguage = Messages[language]
 
   return (
     <div className="App">
@@ -24,7 +24,7 @@ const App = () => {
         <h1 className="App-title">Igor Martins</h1>
       </div>
 
-      <div style={{ height: "80px" }}>
+      {/* <div style={{ height: "80px" }}>
         <div className="App-intro" style={{ color: "#bbb" }}>
           <Messenger
             news={[
@@ -36,17 +36,17 @@ const App = () => {
             ]}
           />
         </div>
-      </div>
-      <div className="align-center">
+      </div> */}
+      {/* <div className="align-center">
         <button className=" btn-lang" onClick={languageEN}>
           <span>en-US.</span>
         </button>
         <button className="btn-lang" onClick={languagePT}>
           <span>pt-BR.</span>
         </button>
-      </div>
-      <div className="skill_set">
-        <div className="skill_box">
+      </div> */}
+      {/* <div className="skill_set"> */}
+      {/* <div className="skill_box">
           <img alt="computer" src={Computer} className="img-project" />
           <div>
             <h1 className="title">{PageLanguage.title1}</h1>
@@ -80,8 +80,8 @@ const App = () => {
           </div>
         </div>
         <AtomComponent />
-        <RecentProjects pageLanguage={PageLanguage} />
-        <div className="skill_box">
+        <RecentProjects pageLanguage={PageLanguage} /> */}
+      {/* <div className="skill_box">
           <img alt="skills" src={Skills} className="img-skills" />
           <div>
             <h1 className="title">{PageLanguage.title2}</h1>
@@ -108,8 +108,8 @@ const App = () => {
             </h2>
           </div>
         </div>
-        <div className="skill_box">
-          <img alt="current" src={Current} className="img-current" />
+        <div className="skill_box"> */}
+      {/* <img alt="current" src={Current} className="img-current" />
           <div>
             <h1 className="title">{PageLanguage.title3}</h1>
             <h2 className="text_box">
@@ -124,9 +124,9 @@ const App = () => {
               {PageLanguage.message5}
             </h2>
           </div>
-        </div>
+        </div> */}
 
-        <div className="skill_box">
+      {/* <div className="skill_box">
           <img alt="like" src={Like} className="img-like" />
           <div>
             <h1 className="title">{PageLanguage.title4}</h1>
@@ -136,8 +136,8 @@ const App = () => {
             </h2>
           </div>
         </div>
-        <RocketComponent />
-        {/* <div className='skill_box'>
+        <RocketComponent /> */}
+      {/* <div className='skill_box'>
           <img alt='job' src={Job} className='img-job' />
           <div>
             <h1 className='title'>{PageLanguage.title5}</h1>
@@ -149,7 +149,7 @@ const App = () => {
             </h2>
           </div>
         </div> */}
-        <div className="skill_box">
+      {/* <div className="skill_box">
           <img alt="letter" src={Letter} className="img-email" />
           <div>
             <h1 className="title">{PageLanguage.title6}</h1>
@@ -157,9 +157,9 @@ const App = () => {
               {PageLanguage.message11} <br /> {PageLanguage.message12}.
             </h2>
           </div>
-        </div>
+        </div> */}
 
-        <div className="form_louco">
+      {/* <div className="form_louco">
           <form
             action="https://formspree.io/m.oliverunb@gmail.com"
             method="POST"
@@ -198,7 +198,7 @@ const App = () => {
             </div>
           </form>
         </div>
-      </div>
+      </div> */}
       <Footer />
     </div>
   )

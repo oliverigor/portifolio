@@ -38,7 +38,7 @@ const Footer = () => {
           <i className="fa fa-github" />
         </a>
       </div>
-      <small>
+      {/* <small>
         <p>
           MADE BY ME...YES...
           <a
@@ -49,7 +49,7 @@ const Footer = () => {
             IGOR
           </a>
         </p>
-      </small>
+      </small> */}
     </div>
   )
 }
