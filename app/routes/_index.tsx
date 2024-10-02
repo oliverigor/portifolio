@@ -69,7 +69,7 @@ export default function Index() {
             rel="noopener noreferrer"
             target="_blank"
             className="btn linkedin"
-            href="https://www.linkedin.com/in/igor-de-oliveira-martins-624b4895/"
+            href="https://www.linkedin.com/in/%F0%9F%A4%99%F0%9F%8F%BDigor-de-oliveira-martins-624b4895/"
             aria-label="linkedin"
           >
             <img
