@@ -10,3 +10,90 @@ body {
     color-scheme: dark;
   }
 }
+
+.social-btns .btn,
+.social-btns .btn:before,
+.social-btns .btn .fa {
+  transition: all 0.35s;
+  transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+.social-btns .btn:before {
+  top: 90%;
+  left: -110%;
+}
+.social-btns .btn .fa {
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+}
+.social-btns .btn.linkedin:before {
+  background-color: #3b5998;
+}
+.social-btns .btn.linkedin .fa {
+  filter: invert(36%) sepia(13%) saturate(2909%) hue-rotate(183deg)
+    brightness(83%) contrast(81%);
+}
+
+.social-btns .btn.twitter:before {
+  background-color: #3cf;
+}
+.social-btns .btn.twitter .fa {
+  filter: invert(72%) sepia(29%) saturate(3507%) hue-rotate(162deg)
+    brightness(101%) contrast(100%);
+}
+
+.social-btns .btn.google:before {
+  background-color: #dc4a38;
+}
+.social-btns .btn.google .fa {
+  filter: invert(40%) sepia(90%) saturate(2908%) hue-rotate(341deg)
+    brightness(91%) contrast(88%);
+}
+
+.social-btns .btn.github .fa {
+  filter: invert(5%) sepia(99%) saturate(15%) hue-rotate(314deg) brightness(97%)
+    contrast(87%);
+}
+.social-btns .btn.github:before {
+  background-color: #1d1d1d;
+}
+
+.social-btns .btn:focus:before,
+.social-btns .btn:hover:before {
+  top: -10%;
+  left: -10%;
+}
+.social-btns .btn:focus .fa,
+.social-btns .btn:hover .fa {
+  filter: invert(100%);
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.social-btns {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.social-btns .btn {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  overflow: clip;
+  border-radius: 28%;
+  box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+  opacity: 0.99;
+}
+.social-btns .btn:before {
+  content: "";
+  width: 120%;
+  height: 120%;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.social-btns .btn .fa {
+  font-size: 28px;
+  vertical-align: middle;
+}
