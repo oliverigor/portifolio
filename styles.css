@@ -1,0 +1,185 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  background: #ffffff;
+  font-family:
+    "Inter",
+    ui-sans-serif,
+    system-ui,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  background: #ffffff;
+  color: #111827;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background: #030712;
+    color-scheme: dark;
+  }
+
+  body {
+    background: #030712;
+    color: #f9fafb;
+  }
+}
+
+.portfolio {
+  display: flex;
+  min-height: 100vh;
+  min-height: 100dvh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.profile {
+  display: grid;
+  justify-items: center;
+  gap: 2.5rem;
+}
+
+.profile-photo {
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 9999px;
+  object-fit: cover;
+}
+
+h1 {
+  margin: 0;
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    "Liberation Mono",
+    "Courier New",
+    monospace;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 400;
+}
+
+.social-btns,
+.social-btns .btn,
+.social-btns .btn::before,
+.social-btns .btn .fa {
+  transition: all 0.35s;
+  transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+
+.social-btns {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-btns .btn {
+  position: relative;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  overflow: clip;
+  border-radius: 28%;
+  background-color: #ffffff;
+  box-shadow: 0 5px 15px -5px rgb(0 0 0 / 10%);
+  opacity: 0.99;
+}
+
+.social-btns .btn::before {
+  position: absolute;
+  top: 90%;
+  left: -110%;
+  width: 120%;
+  height: 120%;
+  content: "";
+  transform: rotate(45deg);
+}
+
+.social-btns .btn .fa {
+  z-index: 1;
+  display: block;
+  width: 35px;
+  height: 35px;
+  transform: scale(0.8);
+}
+
+.social-btns .btn.linkedin::before {
+  background-color: #3b5998;
+}
+
+.social-btns .btn.linkedin .fa {
+  filter: invert(36%) sepia(13%) saturate(2909%) hue-rotate(183deg)
+    brightness(83%) contrast(81%);
+}
+
+.social-btns .btn.twitter::before {
+  background-color: #33ccff;
+}
+
+.social-btns .btn.twitter .fa {
+  filter: invert(72%) sepia(29%) saturate(3507%) hue-rotate(162deg)
+    brightness(101%) contrast(100%);
+}
+
+.social-btns .btn.google::before {
+  background-color: #dc4a38;
+}
+
+.social-btns .btn.google .fa {
+  filter: invert(40%) sepia(90%) saturate(2908%) hue-rotate(341deg)
+    brightness(91%) contrast(88%);
+}
+
+.social-btns .btn.github::before {
+  background-color: #1d1d1d;
+}
+
+.social-btns .btn.github .fa {
+  filter: invert(5%) sepia(99%) saturate(15%) hue-rotate(314deg) brightness(97%)
+    contrast(87%);
+}
+
+.social-btns .btn:focus-visible {
+  outline: 3px solid #2563eb;
+  outline-offset: 4px;
+}
+
+.social-btns .btn:focus::before,
+.social-btns .btn:hover::before {
+  top: -10%;
+  left: -10%;
+}
+
+.social-btns .btn:focus .fa,
+.social-btns .btn:hover .fa {
+  filter: invert(100%);
+  transform: scale(1);
+}
+
+@media (max-width: 480px) {
+  .social-btns {
+    gap: 14px;
+  }
+}
