@@ -1,5 +1,3 @@
-node_modules
-
-/.cache
-/build
+__pycache__/
+.DS_Store
 .env
